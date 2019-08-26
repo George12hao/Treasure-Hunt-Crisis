@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>寻宝危机</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body onload="onLoad()">
+<canvas id="cvs" width="1000" height="800"></canvas>
+<img src="./元宝.png" alt="" id="img1">
+<span id="num">0</span>
+<img src="./钟.png" id="img2">
+<span id="time">0</span>
+<img src="./爱心.png" alt="" id="img3">
+<span id="life">3</span>
+<img src="./爆炸.png" alt="" id="imgs">
+<img src="./返回.png" alt="" id="img4" onclick="jump()">
+<img src="./person1.png" alt="" id="person">
+<img src="./tool.png" alt="" id="tool">
+<audio id="myAudio" loop="loop">
+    <source src="./game.mp3" type="audio/ogg">
+</audio>
+<script src="game.js"></script>
+</body>
+</html>
